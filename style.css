@@ -80,34 +80,33 @@ main {
 }
 
 .section-2 {
-    background-image: linear-gradient( to bottom, #AC0BCF, #225cab);
+    background-image: linear-gradient(to bottom, #AC0BCF, #225cab);
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 700px;
+    max-height: 700px;
 }
 
 .elementos-sec-2 {
     max-width: 1200px;
-    height: 100%;
+    max-height: 700px;
+    margin-top: 10px;
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(255, 255, 255);
-    padding: 0px 60px 50px 0px;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    padding: 0px 60px 0px 0px;
 }
 
 .elementos-sec-left {
+    background-image: url('imagens/LUANA.png');
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    max-width: 300px;
-    padding-left: 10px;
-    max-height: 700px;
-}
-
-.elementos-sec-left >  img {
-    width: 100%;
+    justify-content: end;
+    width: 40%;
+    height: 100%;
 }
 
 .elementos-sec-right {
@@ -115,35 +114,8 @@ main {
     flex-direction: column;
     align-items: baseline;
     justify-content: center;
-    padding-left: 10%;
-    padding-top: 50px;
-    border-radius: 10px;
-    width: 100%;
-    color: #225cab;
-}
-
-.elementos-sec-right > h1 {
-    font-weight: 900;
-    font-size: 45px;
-    padding-bottom:10px;
-    margin-bottom:30px;
-}
-
-.elementos-sec-right > h2 {
-    background-color: #225cab;
-    color: white;
-    margin-bottom: 10px;
-}
-
-.elementos-sec-right > ul {
-    list-style-position: inside;
-    margin-top: 5%;
-}
-
-.elementos-sec-right > ul > li {
-    margin-bottom: 25px;
-    font-weight: 600;
-    font-size: 1.2rem;
+    padding-top: 10px;
+    width: 60%;
 }
 
 .section-3 {
@@ -184,7 +156,6 @@ main {
     align-items: baseline;
     justify-content: center;
     padding-top: 10px;
-    border-radius: 10px;
     width: 50%;
     color: #fff;
 }
@@ -241,10 +212,6 @@ main {
     font-size: 22px;
     font-weight: 900;
     color: #761cb8;
-}
-
-.elementos-sec-4 > strong {
-    
 }
 
 .elementos-sec-4 > #p1 {
@@ -317,7 +284,7 @@ h1, p, img, button {
     
     .elementos-sec-1 > h1 {
         font-weight: 900;
-        font-size: 30px;
+        font-size: 2.7vw;
     }
     
     .sub-titulo-sec-1 {
@@ -326,7 +293,7 @@ h1, p, img, button {
     }
     
     .sub-titulo-sec-1 > p {
-        font-size: 18px;
+        font-size: 2vw;
     }
     
     .btn-sec-1 {
@@ -345,69 +312,6 @@ h1, p, img, button {
         width: 100%;
         max-height: 100px;
         cursor: pointer;
-    }
-
-    .section-2 {
-        background-image: linear-gradient( to bottom, #AC0BCF, #225cab);
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        max-height: 700px;
-    }
-    
-    .elementos-sec-2 {
-        max-width: 1200px;
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        background-color: rgb(255, 255, 255);
-        padding: 0px 60px 0px 0px;
-    }
-    
-    .elementos-sec-left {
-        height: 100%;
-        width: 350px;
-        padding-left: 10px;
-        max-height: 700px;
-    }
-    
-    .elementos-sec-right {
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-        justify-content: center;
-        padding-left: 10%;
-        padding-top: 50px;
-        border-radius: 10px;
-        width: 100%;
-        height: 100%;
-        color: #225cab;
-    }
-    
-    .elementos-sec-right > h1 {
-        font-weight: 900;
-        font-size: 4vw;
-        padding-bottom:10px;
-        margin-bottom:30px;
-    }
-    
-    .elementos-sec-right > h2 {
-        background-color: #225cab;
-        color: white;
-        margin-bottom: 10px;
-        font-size: 2.5vw;
-    }
-    
-    .elementos-sec-right > ul {
-        list-style-position: inside;
-        margin-top: 5%;
-    }
-    
-    .elementos-sec-right > ul > li {
-        margin-bottom: 25px;
-        font-weight: 600;
-        font-size: 2vw;
     }
 
     /*segunda parte*/
