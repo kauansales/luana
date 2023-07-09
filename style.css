@@ -100,12 +100,10 @@ main {
 }
 
 .elementos-sec-left {
-    background-image: url('imagens/LUANA.png');
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    width: 40%;
+    width: 20%;
     height: 100%;
 }
 
@@ -115,7 +113,32 @@ main {
     align-items: baseline;
     justify-content: center;
     padding-top: 10px;
-    width: 60%;
+    padding-left: 60px;
+    width: 70%;
+    color: #225cab;
+}
+
+.elementos-sec-right > h1 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.elementos-sec-right > h2 {
+    color: white;
+    background-color: #225cab;
+    margin-top: 5%;
+    font-size: 30px;
+}
+
+.elementos-sec-right > ul {
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 5%;
+    list-style-position: inside;
+}
+
+.elementos-sec-right > ul > li {
+    margin-bottom: 3%;
 }
 
 .section-3 {
@@ -252,6 +275,137 @@ main {
 
 h1, p, img, button {
     visibility: hidden;
+}
+
+@media (max-width: 983px) {
+    .section-2 {
+        background-image: linear-gradient(to bottom, #AC0BCF, #225cab);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-height: 700px;
+    }
+    
+    .elementos-sec-2 {
+        max-width: 1200px;
+        max-height: 700px;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #fff;
+        padding: 0px 10% 0px 0px;
+    }
+    
+    .elementos-sec-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 20%;
+        height: 100%;
+    }
+    
+    .elementos-sec-right {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 5%;
+        width: 70%;
+        color: #225cab;
+    }
+    
+    .elementos-sec-right > h1 {
+        font-size: 4vw;
+        font-weight: 900;
+    }
+    
+    .elementos-sec-right > h2 {
+        color: white;
+        background-color: #225cab;
+        margin-top: 5%;
+        font-size: 2.5vw;
+    }
+    
+    .elementos-sec-right > ul {
+        font-weight: 800;
+        font-size: 1.5vw;
+        margin-top: 5%;
+        list-style-position: inside;
+    }
+    
+    .elementos-sec-right > ul > li {
+        margin-bottom: 3%;
+    }
+}
+
+.section-4 {
+    background-color: #FED336;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.elementos-sec-4 {
+    background-color: #FED336;
+    max-width: 1200px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elementos-sec-4 > img {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.elementos-sec-4 > p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+    color: #761cb8;
+}
+
+.elementos-sec-4 > #p1 {
+    padding-bottom: 50px;
+    font-size: 2.3vw;
+}
+
+.elementos-sec-4 > #p2 {
+    font-size: 2.8vw;
+    padding: 0px 10px 0px 10px;
+    color: #fed336;
+    background-color: #761cb8;
+}
+
+.elementos-sec-4 > #p4 {
+    color: black;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.elementos-sec-4 > #img2 {
+    width: 50%;
+}
+
+.elementos-sec-4 > a > button {
+        background-color: #761cb8;
+        color: white;
+        font-weight: 900;
+        font-size: 100%;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.344);
+        padding: 10px;
+        width: 350px;
+        height: 60px;
+        cursor: pointer;
 }
 
 @media (max-width: 903px) {
